@@ -1,0 +1,1751 @@
+[
+	{
+		"name": "Streltsy",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 48,
+		"cost": 92,
+		"attackSound": "shot",
+		"upgradesTo": "Tek HomoDeus",
+		"uniques": [
+			"[+10]% Strength <vs [Gunpowder] units>",
+			"Free [Streltsy] appears <upon being defeated> <with [30]% chance>",
+			"Can build [Land] improvements on tiles",
+			"Requires at least [1] population",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Styracosaurus Rider",
+		"unitType": "Ceratopsia",
+		"movement": 2,
+		"strength": 69,
+		"cost": 80,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+30]% Strength <when fighting in [Forest] tiles>",
+			"[+30]% Strength <when fighting in [Montano] tiles>",
+			"[+30]% Strength <when fighting in [Tundra] tiles>",
+			"[+30]% Strength <when fighting in [Hill] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Centaur Archer",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 35,
+		"rangedStrength": 35,
+		"cost": 75,
+		"upgradesTo": "Allo Rider",
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Hippocampus",
+		"unitType": "Civilian",
+		"strength": 6,
+		"movement": 2,
+		"cost": 150,
+		"uniques": [
+			"[+1] Sight",
+			"[+80]% Strength <vs [Barbarian] units>",
+			"Founds a new city <in [Lakes] tiles> <by consuming this unit>",
+			"Founds a new city <in [Coast] tiles> <by consuming this unit>",
+			"Founds a new city <in [Ocean] tiles> <by consuming this unit>",
+			"Founds a new city <by consuming this unit>",
+			"Excess Food converted to Production when under construction",
+			"Requires at least [3] population"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "marine"
+	},
+	{
+		"name": "Maeguana Rider",
+		"unitType": "Fantasy",
+		"movement": 3,
+		"strength": 16,
+		"cost": 75,
+		"upgradesTo": "Kapro Rider",
+		"uniques": [
+			"[+30]% Strength <vs [Theropoda] units>",
+			"No movement cost to pillage",
+			"Can move immediately once bought",
+			"May travel on Water tiles without embarking"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Minotaur",
+		"unitType": "Fantasy",
+		"movement": 3,
+		"strength": 69,
+		"cost": 75,
+		"uniques": [
+			"[+30]% Strength <vs [Wounded] units>",
+			"[+30]% Strength <when defending>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Assassin",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 45,
+		"cost": 150,
+		"attackSound": "shot",
+		"uniques": [
+			"[+20]% Strength <vs [Theropoda] units>",
+			"[+20]% Strength <vs [Civilian] units>",
+			"[+20]% Strength <vs [Gunpowder] units>"
+		]
+	},
+	{
+		"name": "Duonychus",
+		"unitType": "Theropoda",
+		"movement": 2,
+		"strength": 43,
+		"cost": 85,
+		"uniques": [
+			"[1] additional attacks per turn",
+			"[+25]% Strength <when attacking>"
+		],
+		"promotions": [
+			"Cretaceous"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "theri"
+	},
+	{
+		"name": "Ouranosaurus",
+		"unitType": "Mammal",
+		"movement": 3.5,
+		"strength": 97,
+		"cost": 250,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+33]% Strength <vs [Giga Rider] units>",
+			"[+33]% Strength <vs [Mighty Titanosaurus] units>",
+			"[+33]% Strength <vs [Theropoda] units>",
+			"[+33]% Strength <vs [Fantasy] units>",
+			"[+33]% Strength <vs [Flying] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Arabian Leopard",
+		"unitType": "Mammal",
+		"movement": 8,
+		"strength": 65,
+		"cost": 80,
+		"promotions": [
+			"Miocene"
+		],
+		"uniques": [
+			"Never appears as a Barbarian unit",
+			"Limited to [3] per Civilization"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "feline"
+	},
+	{
+		"name": "Rhinoceros Rider",
+		"unitType": "Mammal",
+		"movement": 4,
+		"strength": 60,
+		"cost": 70,
+		"promotions": [
+			"Miocene"
+		],
+		"uniques": [
+			"[+2] Movement <in [Desert] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+	{
+		"name": "Architect Survivor",
+		"unitType": "Civilian",
+		"uniques": [
+			"Limited to [4] per Civilization",
+			"Can be purchased with [Faith] [in all cities]",
+			"Can be purchased for [50] [Faith] [in all cities]",
+			"Can speed up construction of a building",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Herbalist Survivor",
+		"unitType": "Civilian",
+		"uniques": [
+			"Limited to [4] per Civilization",
+			"Can be purchased with [Faith] [in all cities]",
+			"Can be purchased for [30] [Faith] [in all cities]",
+			"Can move immediately once bought",
+			"Can instantly construct a [Trading post] improvement <by consuming this unit>",
+			"Can instantly construct a [Desert Ranch] improvement <by consuming this unit>",
+			"Can instantly construct a [Windcatcher] improvement <by consuming this unit>",
+			"Unbuildable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Thylacoleo Hunter",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 25,
+		"cost": 1,
+		"uniques": [
+			"[+33]% Strength <vs [Mammal] units>",
+			"[+33]% Strength <vs [Varanus] units>",
+			"Can be purchased with [Faith] [in all cities]",
+			"Can be purchased for [100] [Faith] [in all cities]",
+			"Can be purchased with [Culture] [in all cities]",
+			"Can be purchased for [30] [Culture] [in all cities]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Ceremonial Chief",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 1,
+		"uniques": [
+			"[+35]% Strength bonus for [Sword] units within [3] tiles",
+			"[+35]% Strength bonus for [Archery] units within [3] tiles",
+			"Can be purchased with [Faith] [in all cities]",
+			"Can be purchased for [800] [Faith] [in all cities]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Didgeridoo Artist",
+		"unitType": "Civilian",
+		"movement": 3,
+		"strength": 5,
+		"cost": 1,
+		"uniques": [
+			"Empire enters a [25]-turn Golden Age <by consuming this unit>",
+			"Can be purchased with [Faith] [in all cities]",
+			"Can be purchased for [1100] [Faith] [in all cities]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Phorusrhacos Rider",
+		"unitType": "Land Avian",
+		"movement": 3,
+		"strength": 38,
+		"cost": 60,
+		"promotions": [
+			"Miocene",
+			"Health I"
+		],
+		"upgradesTo": "Portugalophis",
+		"uniques": [
+			"[+20]% Strength <when fighting in [Forest] tiles>",
+			"[+20]% Strength <when fighting in [Plains] tiles>",
+			"[+20]% Strength <when fighting in [Jungle] tiles>",
+			"[+20]% Strength <when fighting in [Redwoods] tiles>",
+			"[+15]% Strength <vs [Ophidia] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Erster Panzer",
+		"upgradesTo": "4RK MHJ",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 200,
+		"cost": 300,
+		"uniques": [
+			"[+50]% Strength <vs [Gunpowder] units>",
+			"Consumes [2] [Metal]",
+			"Consumes [2] [Oil]"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Mononykus",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 17,
+		"cost": 75,
+		"upgradesTo": "Kapro Rider",
+		"promotions": [
+			"Cretaceous",
+			"Health I",
+			"Fortitude I"
+		],
+		"uniques": [
+			"[+5]% Strength <vs [Insect] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Alvarezsaurus",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 20,
+		"cost": 70,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Cretaceous",
+			"Imperator"
+		],
+		"uniques": [
+			"[+10]% Strength <when fighting in [Forest] tiles>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Orcinus Orca",
+		"upgradesTo": "Mosa Rider",
+		"unitType": "Cetaceous",
+		"movement": 3,
+		"strength": 75,
+		"cost": 195,
+		"promotions": [
+			"Miocene"
+		],
+		"uniques": [
+			"[+30]% Strength <vs [Marine Reptile] units>",
+			"[+30]% Strength <vs [Fish] units>",
+			"[1] additional attacks per turn",
+			"[15] HP when healing",
+			"Heals [25] damage if it kills a unit"
+		],
+		"attackSound": "marine"
+	},
+	{
+		"name": "Kriegserfahren Survivor",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 29,
+		"cost": 75,
+		"attackSound": "metalhit",
+		"upgradesTo": "Crossbow Survivor",
+		"requiredResource": "Thatch",
+		"uniques": [
+			"[+30]% Strength <when fighting in [Snow] tiles>",
+			"[+10]% Strength <when fighting in [Tundra] tiles>"
+		]
+	},
+	{
+		"name": "Koreanosaurus",
+		"unitType": "Ornithopoda",
+		"movement": 3,
+		"strength": 35,
+		"cost": 88,
+		"requiredResource": "Relic",
+		"promotions": [
+			"Cretaceous",
+			"Stamina I",
+			"Oxygen I",
+			"Health I"
+		],
+		"hurryCostModifier": 20,
+		"upgradesTo": "Allo Rider",
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Varanus Niloticus",
+		"unitType": "Varanus",
+		"movement": 3,
+		"strength": 45,
+		"cost": 1,
+		"uniques": [
+			"Can be purchased with [Gold] [in all cities]",
+			"Can be purchased for [270] [Gold] [in all cities]"
+		],
+		"promotions": [
+			"Miocene"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "varanus"
+	},
+	{
+		"name": "Varanus Bitatawa",
+		"unitType": "Varanus",
+		"movement": 3,
+		"strength": 35,
+		"cost": 78,
+		"promotions": [
+			"Pliocene",
+			"Frugivorous"
+		],
+		"hurryCostModifier": 20,
+		"upgradesTo": "Allo Rider",
+		"attackSound": "varanus"
+	},
+	{
+		"name": "Varanus Priscus",
+		"unitType": "Varanus",
+		"movement": 3,
+		"strength": 70,
+		"cost": 68,
+		"promotions": [
+			"Pliocene"
+		],
+		"uniques": [
+			"[+30]% Strength <vs [Mammal] units>",
+			"[+30]% Strength <vs [Fasolasuchus Rider] units>",
+			"[+30]% Strength <vs [Australopithecus] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "varanus"
+	},
+	{
+		"name": "Komodo Dragon",
+		"unitType": "Varanus",
+		"movement": 3,
+		"strength": 40,
+		"cost": 80,
+		"promotions": [
+			"Pliocene"
+		],
+		"uniques": [
+			"[+30]% Strength <vs [Mammal] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "varanus"
+	},
+	{
+		"name": "Trilobite",
+		"requiredResource": "Thatch",
+		"unitType": "Therapsida",
+		"movement": 2,
+		"strength": 23,
+		"cost": 50,
+		"upgradesTo": "Kapro Rider",
+		"promotions": [
+			"Cambrian"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Albertosaurus",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 75,
+		"cost": 60,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+7]% Strength <vs [Mammal] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Epicyon",
+		"unitType": "Mammal",
+		"movement": 2,
+		"strength": 40,
+		"cost": 130,
+		"promotions": [
+			"Miocene"
+		],
+		"uniques": [
+			"[+70]% Strength <vs [Sword] units>",
+			"[+70]% Strength <vs [Theropoda] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "ravager"
+	},
+	{
+		"name": "African Wolf",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 17,
+		"cost": 67,
+		"upgradesTo": "Kapro Rider",
+		"promotions": [
+			"Holocene",
+			"Loyal Companion"
+		],
+		"uniques": [
+			"[+50]% Strength <when fighting in [Plains] tiles>",
+			"[+30]% Strength <when fighting in [Hill] tiles>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+	{
+		"name": "Hyena",
+		"unitType": "Mammal",
+		"movement": 4,
+		"strength": 30,
+		"cost": 70,
+		"upgradesTo": "Stego Rider",
+		"requiredResource": "Wood",
+		"promotions": [
+			"Holocene",
+			"Loyal Companion"
+		],
+		"uniques": [
+			"[+15]% Strength <vs [Sword] units>",
+			"[+15]% Strength <vs [Mammal] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+	{
+		"name": "Meganeura",
+		"unitType": "Insect",
+		"movement": 4,
+		"strength": 17,
+		"cost": 70,
+		"upgradesTo": "Kapro Rider",
+		"promotions": [
+			"Carboniferous",
+			"Regeneration",
+			"Immunity"
+		],
+		"uniques": [
+			"[+30]% Strength <when fighting in [Fallout Land] tiles>",
+			"[+30]% Strength <when fighting in [Dead Land] tiles>",
+			"[+30]% Strength <when fighting in [Jungle] tiles>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "insec"
+	},
+	{
+		"name": "Yurlunggur",
+		"unitType": "Ophidia",
+		"movement": 4,
+		"strength": 70,
+		"cost": 80,
+		"promotions": [
+			"Miocene"
+		],
+		"uniques": [
+			"[+2] Movement <in [Lakes] tiles>",
+			"[+2] Movement <in [Jungle] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "snake"
+	},
+	{
+		"name": "Atrociraptor",
+		"upgradesTo": "Tek Rex Rider",
+		"unitType": "Flying",
+		"movement": 4,
+		"strength": 75,
+		"cost": 200,
+		"requiredResource": "Oil",
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+3] Sight",
+			"[+50]% Strength <vs cities>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Diamantinasaurus",
+		"unitType": "Sauropodomorpha",
+		"movement": 2,
+		"strength": 250,
+		"cost": 300,
+		"requiredResource": "Biotoxin",
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+10]% Strength <when defending>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Ozraptor",
+		"unitType": "Theropoda",
+		"movement": 5,
+		"strength": 67,
+		"cost": 122,
+		"requiredResource": "Metal",
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Imperator",
+			"Immunity",
+			"Jurassic"
+		],
+		"attackSound": "altbigcarno"
+	},
+	{
+		"name": "Eucladoceros",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 50,
+		"promotions": [
+			"Pliocene"
+		],
+		"cost": 125,
+		"uniques": [
+			"[+30]% Strength <vs [Gunpowder] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Pelorovis",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 64,
+		"cost": 70,
+		"promotions": [
+			"Pliocene"
+		],
+		"uniques": [
+			"[+35]% Strength <when defending>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Punk Survivor",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 35,
+		"cost": 120,
+		"attackSound": "metalhit",
+		"uniques": [
+			"[+30]% Strength <vs [Amphibious] units>",
+			"Can build [Land] improvements on tiles"
+		]
+	},
+	{
+		"name": "Archaeolemur",
+		"unitType": "Mammal",
+		"movement": 4,
+		"strength": 12,
+		"cost": 25,
+		"promotions": [
+			"Holocene"
+		],
+		"attackSound": "ravager",
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Panthera Leo Rider",
+		"unitType": "Mammal",
+		"movement": 4,
+		"strength": 80,
+		"cost": 130,
+		"promotions": [
+			"Holocene"
+		],
+		"uniques": [
+			"[+60]% Strength <vs [Sword] units>",
+			"[+80]% Strength <vs [Gunpowder] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "feline"
+	},
+	{
+		"name": "Felis Catus",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 7,
+		"cost": 19,
+		"promotions": [
+			"Holocene"
+		],
+		"attackSound": "feline",
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Valenictus Rider",
+		"unitType": "Pinnipeds",
+		"movement": 2,
+		"strength": 20,
+		"cost": 70,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Pliocene"
+		],
+		"uniques": [
+			"May travel on Water tiles without embarking",
+			"[-1] Movement <in [Hill] tiles> <hidden from users>",
+			"[+11]% Strength <when fighting in [Coast] tiles>",
+			"[+11]% Strength <when fighting in [Ocean] tiles>",
+			"[+44]% Strength <when fighting in [Snow] tiles>",
+			"[+22]% Strength <when fighting in [Tundra] tiles>",
+			"[+22]% Strength <when fighting in [Snowy Beach] tiles>",
+			"[This Unit] takes [5] damage <upon ending a turn in a [Desert] tile> <hidden from users>",
+			"[+3] Movement <in [Ocean] tiles> <hidden from users>",
+			"[+3] Movement <in [Lakes] tiles> <hidden from users>",
+			"[+3] Movement <in [Coast] tiles> <hidden from users>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "seal"
+	},
+	{
+		"name": "Puijila",
+		"unitType": "Pinnipeds",
+		"movement": 3,
+		"strength": 19,
+		"cost": 75,
+		"promotions": [
+			"Oligocene"
+		],
+		"upgradesTo": "Kapro Rider",
+		"uniques": [
+			"[+30]% Strength <when fighting in [Forest] tiles>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "seal"
+	},
+	{
+		"name": "Indian Elephant Rider",
+		"unitType": "Proboscidea",
+		"movement": 3,
+		"strength": 70,
+		"cost": 150,
+		"promotions": [
+			"Holocene"
+		],
+		"uniques": [
+			"[+15]% Strength <vs [Theropoda] units>",
+			"[+15]% Strength <vs [Amphibious] units>",
+			"[+40]% Strength <vs [Mammal] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "elephant"
+	},
+	{
+		"name": "Liopleurodon Rider",
+		"unitType": "Marine Reptile",
+		"movement": 3,
+		"strength": 200,
+		"cost": 600,
+		"promotions": [
+			"Jurassic"
+		],
+		"uniques": [
+			"[-10]% Strength <vs [Mosa Rider] units>"
+		],
+		"attackSound": "marine"
+	},
+	{
+		"name": "Brachiosaurus Rider",
+		"upgradesTo": "Giga Rider",
+		"unitType": "Sauropodomorpha",
+		"movement": 2,
+		"strength": 100,
+		"cost": 300,
+		"uniques": [
+			"[+75]% Strength <vs [Rex Rider] units>",
+			"[+15]% Strength <vs [Theropoda] units>"
+		],
+		"hurryCostModifier": 20,
+		"requiredResource": "Metal",
+		"promotions": [
+			"Imperator",
+			"Jurassic"
+		],
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Leptocleidus Rider",
+		"upgradesTo": "Mosa Rider",
+		"unitType": "Marine Reptile",
+		"movement": 3,
+		"strength": 75,
+		"cost": 210,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+50]% Strength <vs [Fish] units> <during a Golden Age>",
+			"[-25]% Strength <vs [Baryonyx Rider] units>"
+		],
+		"attackSound": "marine"
+	},
+	{
+		"name": "Acrocanthosaurus Rider",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 50,
+		"cost": 90,
+		"uniques": [
+			"[+30]% Strength <when fighting in [Hill] tiles>"
+		],
+		"hurryCostModifier": 20,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Cretaceous"
+		],
+		"attackSound": "altbigcarno"
+	},
+	{
+		"name": "Dance Virus",
+		"unitType": "Biological Weapon",
+		"movement": 1,
+		"range": 9,
+		"strength": 200,
+		"cost": 700,
+		"requiredResource": "Tek",
+		"uniques": [
+			"[+35]% Strength <vs [All] units> <during a Golden Age>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "reaper"
+	},
+	{
+		"name": "Thanatosdrakon Rider",
+		"unitType": "Flying",
+		"movement": 5,
+		"strength": 30,
+		"cost": 80,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+25]% Strength <vs [Ophidia] units>",
+			"[+25]% Strength <vs [Mammal] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tropeo"
+	},
+	{
+		"name": "Argentinosaurus Rider",
+		"unitType": "Sauropodomorpha",
+		"movement": 2,
+		"strength": 250,
+		"cost": 380,
+		"requiredResource": "Biotoxin",
+		"uniques": [
+			"[+55]% Strength <vs [Giga Rider] units>"
+		],
+		"promotions": [
+			"Argentinian Biomes",
+			"Cretaceous"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Afrovenator Rider",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 50,
+		"cost": 50,
+		"uniques": [
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Africa Predator",
+			"Jurassic"
+		],
+		"attackSound": "altbigcarno"
+	},
+	{
+		"name": "Eoraptor",
+		"requiredResource": "Thatch",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 20,
+		"cost": 68,
+		"upgradesTo": "Kapro Rider",
+		"promotions": [
+			"Triassic"
+		],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Desert] tiles> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Aurochs Rider",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 35,
+		"cost": 80,
+		"promotions": [
+			"Holocene"
+		],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Hill] tiles> <when attacking>",
+			"[+15]% Strength <when fighting in [Plains] tiles> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Pachyrhinosaurus Rider",
+		"unitType": "Ceratopsia",
+		"movement": 2,
+		"strength": 24,
+		"cost": 87,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Prey Eyes",
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Tundra] tiles> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Timonya Rider",
+		"upgradesTo": "Megalodon Rider",
+		"unitType": "Marine Amphibious",
+		"movement": 3,
+		"strength": 20,
+		"promotions": [
+			"Permian"
+		],
+		"cost": 50,
+		"uniques": [
+			"[+15]% Strength <when fighting in [Coast] tiles> <when attacking>",
+			"[-20]% Strength <when fighting in [Ocean] tiles> <when attacking>"
+		],
+		"attackSound": "marine"
+	},
+	{
+		"name": "Kelenken Rider",
+		"requiredResource": "Thatch",
+		"unitType": "Land Avian",
+		"movement": 3,
+		"strength": 25,
+		"cost": 85,
+		"upgradesTo": "Kapro Rider",
+		"promotions": [
+			"Paleocene"
+		],
+		"uniques": [
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+			"[+15]% Strength <when fighting in [Aberrant Green Zone] tiles> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Utahraptor Rider",
+		"unitType": "Theropoda",
+		"movement": 5,
+		"strength": 57,
+		"cost": 1,
+		"uniques": [
+			"Can be purchased with [Gold] [in all cities]",
+			"Can be purchased for [300] [Gold] [in all cities]"
+		],
+		"promotions": [
+			"Imperator",
+			"Cretaceous",
+			"Adapted"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Barsboldia Rider",
+		"unitType": "Ornithopoda",
+		"movement": 2,
+		"strength": 60,
+		"cost": 170,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"Consumes [1] [Metal]",
+			"[+15]% Strength <when defending>",
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Puertasaurus Rider",
+		"unitType": "Sauropodomorpha",
+		"movement": 2,
+		"strength": 35,
+		"cost": 100,
+		"uniques": [
+			"[+40]% Strength <when fighting in [Jungle] tiles>",
+			"[+40]% Strength <when fighting in [Redwoods] tiles>"
+		],
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Random Dice",
+			"Cretaceous"
+		],
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Orkoraptor Rider",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 25,
+		"cost": 85,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Shadow Ambusher",
+			"Cretaceous"
+		],
+		"uniques": [
+			"[-5]% Strength <vs cities> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Saltasaurus Rider",
+		"unitType": "Sauropodomorpha",
+		"movement": 2,
+		"strength": 27,
+		"cost": 90,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+10]% Strength <vs cities> <when attacking>",
+			"[+22]% Strength <vs [Theropoda] units>",
+			"[+55]% Strength <vs [Ophidia] units>",
+			"[+15]% Strength <vs [Sword] units>",
+			"[+25]% Strength <vs [Water] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Alamosaurus",
+		"upgradesTo": "Tek Rex Rider",
+		"unitType": "Sauropodomorpha",
+		"movement": 2,
+		"strength": 350,
+		"cost": 400,
+		"uniques": [
+			"Consumes [1] [Steel]",
+			"[+15]% Strength <vs cities> <when attacking>",
+			"Consumes [1] [Biotoxin]"
+		],
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Titan",
+			"Cretaceous"
+		],
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Avimimus Rider",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 27,
+		"cost": 85,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+20]% Strength <when fighting in [Jungle] tiles>",
+			"[+40]% Strength <vs [Gunpowder] units>",
+			"[-44]% Strength <vs cities> <when attacking>",
+			"[+20]% Strength <when fighting in [Redwoods] tiles>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Postosuchus Rider",
+		"unitType": "Amphibious",
+		"movement": 3,
+		"strength": 68,
+		"cost": 60,
+		"requiredResource": "Steel",
+		"uniques": [
+			"All healing effects doubled",
+			"No movement cost to pillage",
+			"[+25]% Strength <vs [Sword] units>",
+			"[+25]% Strength <vs [Theropoda] units>",
+			"[+25]% Strength <vs [Ophidia] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Chivalry",
+			"Triassic"
+		],
+		"upgradesTo": "Cryodrakon Rider",
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Zeppelin",
+		"unitType": "Siege",
+		"movement": 1,
+		"strength": 280,
+		"cost": 400,
+		"uniques": [
+			"Consumes [1] [Steel]",
+			"[+70]% Strength <vs [Fantasy] units>",
+			"[+70]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Plateosaurus Rider",
+		"unitType": "Sauropodomorpha",
+		"movement": 2,
+		"strength": 80,
+		"cost": 190,
+		"requiredResource": "Steel",
+		"promotions": [
+			"Steampunker",
+			"Chivalry",
+			"Triassic"
+		],
+		"uniques": [
+			"[+10]% Strength <vs [Wounded] units>",
+			"[+10]% Strength <vs [Gunpowder] units>",
+			"[+33]% Strength <vs [Fantasy] units>",
+			"Never appears as a Barbarian unit"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Velociraptor",
+		"unitType": "Theropoda",
+		"movement": 5,
+		"strength": 30,
+		"cost": 80,
+		"upgradesTo": "Stego Rider",
+		"requiredResource": "Wood",
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+30]% Strength <vs [Sword] units>",
+			"[+25]% Strength <vs [Ornithopoda] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Nothosaurus",
+		"upgradesTo": "Megalodon Rider",
+		"unitType": "Marine Reptile",
+		"movement": 3,
+		"strength": 25,
+		"cost": 50,
+		"promotions": [
+			"Teeth like Daggers",
+			"Triassic"
+		],
+		"attackSound": "marine"
+	},
+	{
+		"name": "Irritator Rider",
+		"unitType": "Spinosauridae",
+		"movement": 3,
+		"strength": 30,
+		"cost": 70,
+		"promotions": [
+			"Flexible Bones",
+			"Cretaceous"
+		],
+		"hurryCostModifier": 20,
+		"upgradesTo": "Stego Rider",
+		"attackSound": "spino"
+	},
+	{
+		"name": "Tarbosaurus Rider",
+		"upgradesTo": "Giga Rider",
+		"unitType": "Theropoda",
+		"movement": 2,
+		"strength": 75,
+		"cost": 230,
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Strong Genetics",
+			"Imperator",
+			"Cold Weather Lover",
+			"Cretaceous"
+		],
+		"attackSound": "rex"
+	},
+	{
+		"name": "Maiasaura Rider",
+		"unitType": "Ornithopoda",
+		"movement": 2,
+		"strength": 60,
+		"cost": 110,
+		"hurryCostModifier": 20,
+		"upgradesTo": "Theri Rider",
+		"promotions": [
+			"Good Mother",
+			"Cretaceous"
+		],
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Struthiomimus",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 15,
+		"cost": 65,
+		"promotions": [
+			"Imperator",
+			"Cretaceous"
+		],
+		"upgradesTo": "Stego Rider",
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Trike Rider",
+		"unitType": "Ceratopsia",
+		"movement": 1,
+		"strength": 30,
+		"cost": 90,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+15]% Strength <vs [Sword] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Atopodentatus",
+		"upgradesTo": "Mosa Rider",
+		"unitType": "Marine Reptile",
+		"movement": 3,
+		"strength": 15,
+		"promotions": [
+			"Triassic"
+		],
+		"cost": 65,
+		"uniques": [
+			"[+60]% Strength <vs [Megalodon Rider] units>",
+			"[+60]% Strength <vs [Plesio Rider] units>"
+		],
+		"attackSound": "marine"
+	},
+	{
+		"name": "Attenborosaurus Rider",
+		"upgradesTo": "Dunkleosteous Rider",
+		"unitType": "Marine Reptile",
+		"movement": 4,
+		"strength": 45,
+		"promotions": [
+			"Jurassic"
+		],
+		"cost": 140,
+		"uniques": [
+			"[+60]% Strength <vs [Mosa Rider] units>",
+			"[+60]% Strength <vs [Basilo Rider] units>"
+		],
+		"attackSound": "marine"
+	},
+	{
+		"name": "Sivatherium",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 30,
+		"cost": 80,
+		"upgradesTo": "Stego Rider",
+		"requiredResource": "Wood",
+		"promotions": [
+			"Miocene"
+		],
+		"uniques": [
+			"[+40]% Strength <vs [Fantasy] units>",
+			"[+15]% Strength <vs [Water] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Myotragus",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 16,
+		"cost": 75,
+		"upgradesTo": "Kapro Rider",
+		"promotions": [
+			"Mountain Climber",
+			"Holocene"
+		],
+		"uniques": [
+			"[+10]% Strength <vs [Sword] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Genyodectes",
+		"unitType": "Theropoda",
+		"movement": 2,
+		"strength": 48,
+		"cost": 115,
+		"promotions": [
+			"Cretaceous"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Megaloceros Rider",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 16,
+		"cost": 75,
+		"upgradesTo": "Kapro Rider",
+		"promotions": [
+			"Pliocene"
+		],
+		"uniques": [
+			"[+15]% Strength <vs [Theropoda] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Inostrancevia Rider",
+		"unitType": "Therapsida",
+		"movement": 3,
+		"strength": 27,
+		"cost": 100,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Permian"
+		],
+		"uniques": [
+			"[+15]% Strength <vs [Ceratopsia] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+	{
+		"name": "Lemurosaurus Rider",
+		"upgradesTo": "Tek Rex Rider",
+		"unitType": "Therapsida",
+		"movement": 2,
+		"strength": 70,
+		"cost": 200,
+		"promotions": [
+			"Adapted",
+			"Permian"
+		],
+		"uniques": [
+			"[+35]% Strength <vs [Flying] units>",
+			"[+35]% Strength <vs [Fantasy] units>",
+			"[+35]% Strength <vs [Mammal] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+	{
+		"name": "Electric Dragon",
+		"unitType": "Fantasy",
+		"movement": 4,
+		"strength": 75,
+		"cost": 320,
+		"attackSound": "dragon",
+		"uniques": [
+			"[+20]% Strength <vs [Theropoda] units>"
+		]
+	},
+	{
+		"name": "Muttaburrasaurus",
+		"unitType": "Ornithopoda",
+		"movement": 2,
+		"strength": 39,
+		"cost": 119,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+5]% Strength <vs [Theropoda] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Shanshanosaurus",
+		"upgradesTo": "Giga Rider",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 90,
+		"cost": 200,
+		"requiredResource": "Tyrannosaurus",
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Strong Genetics",
+			"Cretaceous"
+		],
+		"attackSound": "rex"
+	},
+	{
+		"name": "Deinotherium",
+		"upgradesTo": "Giga Rider",
+		"unitType": "Mammal",
+		"movement": 1.5,
+		"strength": 90,
+		"cost": 310,
+		"promotions": [
+			"Miocene"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Concavenator Rider",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 26,
+		"cost": 50,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"Can move immediately once bought"
+		],
+		"hurryCostModifier": 20,
+		"upgradesTo": "Stego Rider",
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Tylosaurus",
+		"upgradesTo": "Mosa Rider",
+		"unitType": "Marine Reptile",
+		"movement": 2,
+		"strength": 80,
+		"promotions": [
+			"Cretaceous"
+		],
+		"cost": 250,
+		"attackSound": "marine"
+	},
+	{
+		"name": "Alpha Tylosaurus",
+		"unitType": "Marine Reptile",
+		"movement": 2,
+		"strength": 150,
+		"cost": 450,
+		"attackSound": "marine"
+	},
+	{
+		"name": "Paracer Rider",
+		"unitType": "Mammal",
+		"movement": 2,
+		"strength": 71,
+		"cost": 260,
+		"hurryCostModifier": 20,
+		"requiredResource": "Metal",
+		"promotions": [
+			"Imperator",
+			"Oligocene"
+		],
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Herrera Rider",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 30,
+		"cost": 150,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Imperator",
+			"Triassic"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "raptor"
+	},
+	{
+		"name": "Lyviatan Rider",
+		"unitType": "Cetaceous",
+		"movement": 4,
+		"strength": 60,
+		"cost": 200,
+		"promotions": [
+			"Miocene"
+		],
+		"attackSound": "marine"
+	},
+	{
+		"name": "Karkinos",
+		"unitType": "Fantasy",
+		"movement": 2,
+		"strength": 67,
+		"cost": 150,
+		"uniques": [
+			"Earn [100]% of killed [Military] unit's [Strength] as [Faith]"
+		],
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Strong Genetics"
+		],
+		"attackSound": "tropeo"
+	},
+	{
+		"name": "Rollrat",
+		"unitType": "Fantasy",
+		"movement": 4,
+		"strength": 45,
+		"cost": 250,
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "DireWolf Rider",
+		"unitType": "Mammal",
+		"movement": 3,
+		"strength": 85,
+		"cost": 150,
+		"promotions": [
+			"Holocene"
+		],
+		"uniques": [
+			"Earn [10]% of killed [Military] unit's [Strength] as [Culture]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+	{
+		"name": "Maip Rider",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 45,
+		"cost": 120,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"[+40]% Strength <vs [Siege] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Neovenator Rider",
+		"upgradesTo": "Giga Rider",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 75,
+		"cost": 190,
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Rage",
+			"Cretaceous"
+		],
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Becklespinax",
+		"upgradesTo": "Tek Rex Rider",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 150,
+		"cost": 200,
+		"promotions": [
+			"Cretaceous"
+		],
+		"uniques": [
+			"All adjacent units heal [+15] HP when healing"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Tek Becklespinax",
+		"unitType": "Theropoda",
+		"movement": 3,
+		"strength": 300,
+		"cost": 390,
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Cerato Rider",
+		"unitType": "Theropoda",
+		"movement": 2,
+		"strength": 50,
+		"cost": 120,
+		"promotions": [
+			"Jurassic"
+		],
+		"uniques": [
+			"Earn [10]% of killed [Military] unit's [Strength] as [Culture]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "altmedcarno"
+	},
+	{
+		"name": "Barbaridactylus",
+		"unitType": "Flying",
+		"movement": 4,
+		"strength": 13,
+		"cost": 60,
+		"upgradesTo": "Kapro Rider",
+		"promotions": [
+			"Cretaceous"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tropeo"
+	},
+	{
+		"name": "Quetzalcoatlus",
+		"upgradesTo": "Tek Rex Rider",
+		"unitType": "Flying",
+		"movement": 5,
+		"strength": 200,
+		"cost": 235,
+		"requiredResource": "Biotoxin",
+		"promotions": [
+			"Cretaceous"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "tropeo"
+	},
+	{
+		"name": "Cryolophosaurus",
+		"unitType": "Theropoda",
+		"movement": 4,
+		"strength": 64,
+		"cost": 78,
+		"promotions": [
+			"Cold Weather Lover",
+			"Jurassic"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "medcarno"
+	},
+	{
+		"name": "Suchomimus Rider",
+		"unitType": "Spinosauridae",
+		"movement": 3,
+		"strength": 39,
+		"cost": 90,
+		"requiredResource": "Wood",
+		"hurryCostModifier": 20,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Golden",
+			"Cretaceous"
+		],
+		"attackSound": "spino"
+	},
+	{
+		"name": "Nigersaurus",
+		"unitType": "Sauropodomorpha",
+		"movement": 3,
+		"strength": 40,
+		"cost": 110,
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Golden",
+			"Cretaceous"
+		],
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Scutosaurus",
+		"unitType": "Amphibious",
+		"movement": 2,
+		"strength": 80,
+		"cost": 200,
+		"promotions": [
+			"Permian"
+		],
+		"requiredResource": "Oil",
+		"uniques": [
+			"[+50]% Strength <vs [Theropoda] units>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "chalico"
+	},
+	{
+		"name": "Andrew Rider",
+		"unitType": "Mammal",
+		"movement": 4,
+		"strength": 25,
+		"cost": 90,
+		"upgradesTo": "Stego Rider",
+		"promotions": [
+			"Eocene"
+		],
+		"uniques": [
+			"[-15]% Strength <when defending>",
+			"[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "ravager"
+	},
+	{
+		"name": "Tapejara Rider",
+		"unitType": "Flying",
+		"movement": 5,
+		"strength": 10,
+		"cost": 30,
+		"requiredResource": "Wood",
+		"promotions": [
+			"Intimidation"
+		],
+		"uniques": [
+			"[+20]% Strength <vs cities>"
+		],
+		"hurryCostModifier": 20,
+		"upgradesTo": "Theri Rider",
+		"attackSound": "dinoherb"
+	},
+	{
+		"name": "Tek Tapejara Rider",
+		"unitType": "Flying",
+		"movement": 4,
+		"strength": 270,
+		"cost": 310,
+		"uniques": [
+			"[+20]% Strength <vs cities>"
+		],
+		"hurryCostModifier": 20,
+		"promotions": [
+			"Strong Genetics"
+		],
+		"attackSound": "dinoherb"
+	}
+]
